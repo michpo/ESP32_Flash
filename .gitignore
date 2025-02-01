@@ -1,0 +1,82 @@
+# Visual Studio 2022 specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Build output directories
+bin/
+obj/
+out/
+artifacts/
+
+# Package dependencies
+packages/
+!packages/repositories.config
+# NuGet cache
+.nupkg
+.nuget/
+
+# .NET Core / .NET 5+ runtime files
+project.lock.json
+project.assets.json
+project.fragment.lock.json
+
+# Debugging files
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+
+# Resharper / JetBrains Rider settings
+.idea/
+.ReSharper*/
+*.DotSettings.user
+
+# Test and coverage results
+TestResults/
+*.coverage
+*.coveragexml
+*.code-workspace
+.ncrunch*
+nCrunchTemp_*
+
+# User secrets (keep private!)
+secrets.json
+*.secret.json
+
+# Publish output
+publish/
+*.publishsettings
+app.publish/
+
+# Entity Framework Migrations
+Migrations/
+
+# Rider / Resharper specific files
+.idea/
+*_Resharper/
+
+# Ignore temporary files created by Windows
+Thumbs.db
+desktop.ini
+
+# Ignore local databases
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Ignore logs
+*.log
+Logs/
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore Python virtual environments (if used)
+venv/
