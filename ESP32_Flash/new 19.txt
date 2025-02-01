@@ -1,0 +1,10 @@
+using System.Security.Cryptography;
+
+public class SHA1_in_CSharp {
+    static void Main(string[] args) {
+        HashAlgorithm hash = HashAlgorithm.Create("SHA1");
+	byte[] input = new byte[30];
+	byte[] digest = hash.ComputeHash(input);
+        System.Console.WriteLine(System.BitConverter.ToString(digest));
+    }
+}
