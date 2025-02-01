@@ -1,3 +1,4 @@
+
 **Overview**
 
 This ESP32 Flash project allows you to burn ESP32 COM during plug and play.
@@ -28,3 +29,7 @@ Flash=esptool.exe -p COM9 -b 460800 --before=default_reset --after=hard_reset  w
 
 [path]
 Dir=C:\
+
+All files must be located in one place.
+
+![image](https://github.com/user-attachments/assets/9eecc53d-bde1-45f2-b28d-b856abf72a8f)
